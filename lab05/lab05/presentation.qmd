@@ -1,0 +1,110 @@
+---
+## Author
+author:
+  name: Седохин Даниил Алексеевич
+  degrees: DSc
+  orcid: 0000-0002-0877-7063
+  email: 1132231845@pfur.ru
+  affiliation:
+    - name: Российский университет дружбы народов
+      country: Российская Федерация
+      postal-code: 117198
+      city: Москва
+      address: ул. Миклухо-Маклая, д. 6
+## Title
+title: "Презентация по лабораторной работе 5"
+subtitle: "Конфигурирование VLAN"
+license: CC BY
+date: today
+date-format: "YYYY-MM-DD" # Example: 2025-09-06
+---
+
+# Информация
+
+## Докладчик
+
+:::::::::::::: {.columns align=center}
+::: {.column width="70%"}
+
+  * Седохин Даниил Алексеевич
+  * Российский университет дружбы народов им. П. Лумумбы
+
+:::
+::: {.column width="30%"}
+
+:::
+::::::::::::::
+
+# Вводная часть
+
+## Цели и задачи
+
+- Получить основные навыки по настройке VLAN на коммутаторах сети.
+
+# Выполнение заданий
+
+## слайд 1
+
+![Настройка Trunk-порта коммутатора msk-donskaya-dasedokhin-sw-1](image/1.png)
+
+## слайд 2
+
+![Настройка Trunk-порта коммутатора msk-donskaya-dasedokhin-sw-2](image/2.png)
+
+## слайд 3
+
+![Настройка Trunk-порта коммутатора msk-donskaya-dasedokhin-sw-3](image/3.png)
+
+## слайд 4
+
+![Настройка Trunk-порта коммутатора msk-donskaya-dasedokhin-sw-4](image/4.png)
+
+## слайд 5
+
+![Настройка Trunk-порта коммутатора msk-pavlovskaya-dasedokhin-sw-1](image/5.png)
+
+## слайд 6
+
+![Прописываем msk-donskaya-dasedokhin-sw-1 как VTP-сервер и номера, названия VLAN](image/6.png)
+
+## слайд 7
+
+![Насйтрока msk-donskaya-sw-2 — mskdonskaya-sw-4, msk-pavlovskaya-sw-1 как VTP-клиенты](image/7.png)
+
+## слайд 8
+
+![Принадлежность к VLAN для msk-donskaya-dasedokhin-sw-2](image/8.png)
+
+## слайд 9
+
+![Принадлежность к VLAN для msk-donskaya-dasedokhin-sw-3](image/9.png)
+
+## слайд 10
+
+![Принадлежность к VLAN для msk-donskaya-dasedokhin-sw-4](image/10.png)
+
+## слайд 11
+
+![Принадлежность к VLAN для msk-pavlovskaya-dasedokhin-sw-1](image/11.png)
+
+## слайд 12
+
+![Ститические IP-адреса для оконечных устройств](image/12.png)
+
+## слайд 13
+
+![Пинг устройств принадлежащих одному VLAN](image/13.png)
+
+## слайд 14
+
+![Пинг устройств принадлежащих разным VLAN](image/14.png)
+
+## слайд 15
+
+![Просмотр пути пакета ICMP, изучение информации о содержимом пакета](image/15.png)
+
+# Выводы
+
+## слайд 1
+
+Я Получил основные навыки по настройке VLAN на коммутаторах сети.
